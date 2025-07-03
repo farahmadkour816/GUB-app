@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/GUB-app/static/js/main.c32577ba.js",
+    "index.html": "/GUB-app/index.html",
+    "main.c32577ba.js.map": "/GUB-app/static/js/main.c32577ba.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c32577ba.js"
+  ]
+}
