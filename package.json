@@ -1,8 +1,8 @@
 {
+   "homepage":"http://farahmadkour816.github.io/GUB-app",
    "name": "frontend",
    "version": "0.1.0",
    "private": true,
-   "homepage": "https://farahmadkour816.github.io/TESTF",
    "dependencies": {
       "@emotion/react": "^11.14.0",
       "@emotion/styled": "^11.14.0",
@@ -20,11 +20,11 @@
    },
    "scripts": {
       "start": "react-scripts start",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
       "build": "react-scripts build",
       "test": "react-scripts test",
-      "eject": "react-scripts eject",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
+      "eject": "react-scripts eject"
    },
    "eslintConfig": {
       "extends": [
